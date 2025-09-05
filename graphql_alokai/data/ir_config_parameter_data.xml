@@ -1,8 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-    Copyright 2024 ERPGAP/PROMPTEQUATION LDA
-    License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl).
--->
 <odoo noupdate="1">
 
     <function model="res.config.settings" name="create_alokai_cache_invalidation_key"/>
@@ -27,10 +23,10 @@
         <field name="value">1920</field>
     </record>
 
-    <record id="alokai_redis_host_param" model="ir.config_parameter">
-        <field name="key">alokai_redis_host</field>
-        <field name="value">localhost</field>
-    </record>
+<!--    <record id="alokai_redis_host_param" model="ir.config_parameter">-->
+<!--        <field name="key">alokai_redis_host</field>-->
+<!--        <field name="value">localhost</field>-->
+<!--    </record>-->
     <record id="alokai_redis_port" model="ir.config_parameter">
         <field name="key">alokai_redis_port</field>
         <field name="value">6379</field>
