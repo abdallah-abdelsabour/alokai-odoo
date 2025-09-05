@@ -27,7 +27,7 @@
         <field name="value">1920</field>
     </record>
 
-    <record id="alokai_redis_host" model="ir.config_parameter">
+    <record id="alokai_redis_host_param" model="ir.config_parameter">
         <field name="key">alokai_redis_host</field>
         <field name="value">localhost</field>
     </record>
